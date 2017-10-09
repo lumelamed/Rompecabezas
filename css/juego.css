@@ -36,18 +36,22 @@ li::before {
 #titulo h1{
     background-color: rgb(107,169,127);
     color: white;
-    display: flex;
-    justify-content: space-around; /*USE FLEX, NO QUEDO IGUAL, REVISAR*/
+    text-align: center;
 }
 
 #instrucciones h2{
   color: rgb(107,169,127);
 }
 
-/*#imagen_completa{
-  width: 5px;
-  height: 5px;
-}           VER QUE HAGO CON ESO*/
+#instrucciones p{
+  padding: 5px 0;
+}
+
+#completo{
+  height: 170px;
+  width: 170px;
+  margin-left: 20%;
+}
 
 #juego div {
   text-align: center;
@@ -77,10 +81,12 @@ li::before {
 }
 
 .pie{
-  background-color: #000;
+  margin-top: -15px;
+  background-color: rgb(107,169,127);
 }
 
 .pie p{
+  padding:5px;
   color: #FFF;
   font-size: 15px;
   text-align: center;
